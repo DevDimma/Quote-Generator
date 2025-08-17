@@ -5,19 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quote Generator</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
   <div class="container">
   <header>Fancy Quote Generator</header>
 
   <main>
-    <form >
+    <form id="quote-form">
       <input type="text" placeholder="Enter a quote topic here" autofocus required autocomplete="off"
        class="instructions">
       <input type="submit" class="submit-button">
     </form>
-    <div class="quote">
-      Quote goes here
+    <div class="quote" id="quote-area">
     </div>
   </main>
   
