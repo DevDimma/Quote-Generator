@@ -58,6 +58,7 @@ form {
   line-height: 1.5;
   border-left: 3px solid rgb(164, 121, 207);
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  display: none;
 }
 
 footer {
